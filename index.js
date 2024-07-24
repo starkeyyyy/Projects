@@ -2,6 +2,7 @@ const express = require('express');
 const fs = require('fs');
 const users = require('./MOCK_DATA.json')
 const app = express();
+const users = require('mongoose');
 const PORT = 9000;
 //middlewares
 app.use(express.urlencoded({extended: false}));
